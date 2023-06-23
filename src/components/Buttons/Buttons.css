@@ -1,0 +1,16 @@
+.button{
+    background-color: black;
+    color: var(--primary-color);
+    border: none;
+    height: 38px;
+    width: 147px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }

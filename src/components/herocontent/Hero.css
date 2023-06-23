@@ -1,0 +1,29 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Added property for horizontal centering */
+    text-align: center; /* Added property for centering text */
+    margin-top: 70px;
+  }
+  
+  .hero-heading {
+    font-size: 30px;
+    margin-right: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .hero-image {
+    width: 200px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-heading {
+      font-size: 24px;
+    }
+  
+    .hero-image {
+      width: 150px;
+    }
+  }
